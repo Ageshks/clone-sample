@@ -163,9 +163,38 @@ p {
   width: 40%;
   align-content: center;
   margin-top: 20px;
+  height: 30px;
 }
 .btn button{
-  /* background-color: #fd9c6b; */
+  background-color: #fd9c6b;
   width: 220px;
+  border-color: #fd9c6b;
+  color: #fcfbfa;
+  height: 45px;
+  
  
+}
+.btn button:hover{
+  background-color: #ffffff;
+  color: #fd9c6b;
+}
+.about{
+  margin-top: 70px;
+}
+.container .about-img{
+  width: 600px;
+  left: 18px;
+  z-index: 10;
+  display: flex;
+  position: relative;
+  top: -180px;
+}
+.container .baground{
+  background-color: black;
+  width: 250px;
+  height: 200px;
+}
+.h2 p{
+  color: black;
+  
 }
