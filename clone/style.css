@@ -340,15 +340,8 @@ p {
 }
 .blog{
   margin-top: 100px;
-  border: 2px red solid;
 }
-.img-container{
-  padding-top: 50px;
-  width: 112%;
-}
-.blog .container{
-  height: 200%;
-}
+
 .container .blog-head h2{
   text-align: center;
   width: 100%;
@@ -358,36 +351,44 @@ p {
 }
 .container .img-container{
   display: flex;
-  height: 300%;
-  border: 2px greenyellow solid;
+  /* border: 2px greenyellow solid; */
 }
 .container .blog1{
-  background-color: #f1f2f3;
   width: 50%;
+  /* background-color: #007af5; */
 }
 .container .blog2{
-  background-color: #f1f2f3;
+  /* background-color: #0dff00; */
   width: 50%;
  
    /* border: 2px greenyellow solid; */
  }
  .container p{
-  padding-left: 30px;
+  /* padding-left: 30px; */
   color: #160e0b;
  }
  .b1-img img{
-  width: 188%;
+  width: 110%;
   margin-left: -27px;
-  margin-top: -13px;
+  margin-top: -15px;
+  height: 505px;
  }
  .b2-img img{
-  width: 109%;
-  margin-top: -38px;
+  width: 118%;
+  margin-top: -42px;
+  margin-left: -55px;
  }
  .blog2 .b2{
-  background-color: rebeccapurple;
+  /* padding-left: 20px; */
+
+  width: 95%;
+  background-color: #f1f2f3;
  }
  .blog1 .b1{
-  background-color: red;
-  width: 50%;
+  background-color: #f1f2f3;
+  width: 95%;
+ }
+ .b1 p{
+  width: 100%;
+  border: 1px red solid;
  }
