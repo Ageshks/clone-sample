@@ -209,11 +209,7 @@ p {
 .about{
   padding-top: 140px;
 }
-.about .row {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
+
 
 .about .img-box {
   position: relative;
@@ -265,16 +261,8 @@ p {
 }
 
 .offer-zone .row > div {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: stretch;
-      -ms-flex-pack: stretch;
-          justify-content: stretch;
 }
 
 .offer-zone .box {
@@ -295,18 +283,9 @@ p {
   left: 0;
   width: 100%;
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
           align-items: flex-start;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
           justify-content: center;
   color: #ffffff;
   padding: 25px;
@@ -325,7 +304,6 @@ p {
   color: #fd9c6b;
   border-radius: 0;
   border: 1px solid #fd9c6b;
-  -webkit-transition: all .2s;
   transition: all .2s;
   margin-top: 10px;
 }
@@ -340,8 +318,7 @@ p {
 }
 
 .offer-zone .box.offer-box1 .detail-box {
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
+      -ms-flex-pack: start; */
           justify-content: flex-start;
 }
 
@@ -354,20 +331,12 @@ p {
 }
 
 .offer-zone .box.offer-box2 .detail-box {
-  -webkit-box-align: end;
-      -ms-flex-align: end;
           align-items: flex-end;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
           justify-content: flex-end;
 }
 
 .offer-zone .box.offer-box3 .detail-box {
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
+  
           justify-content: flex-end;
 }
 
