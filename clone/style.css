@@ -42,16 +42,24 @@ nav {
 .mobile-nav {
   width: 100%;
   left: 40px;
-  position: relative;
+  position:fixed;
 }
 
 .mobile-nav .open-sidebar {
   display: flex;
   position: relative;
   justify-content: end;
+
  
 }
-
+.color{
+  background-color: white;
+  margin-left: 86%;
+  margin-top: 20px;
+  border-radius: 20px;
+  width: 32px;
+  position: fixed;
+}
 
 .header .mobile-nav{
   width: 100%;
@@ -69,13 +77,19 @@ nav {
 .links-container{
   display: none;
 }
+ul{
+  position: relative;
+  align-content: center;
+ display: initial;
+}
 ul li{
   list-style: none;
 }
+
 #sidebar-active:checked ~ .links-container {
   display: block;
   line-height: 5;
-  margin-top: -40px;
+  margin-top: -42px;
   margin-left: -175px;
   background-color: #e2b299;
   height: 300%;
