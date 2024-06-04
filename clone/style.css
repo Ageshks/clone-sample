@@ -59,6 +59,7 @@ nav {
   border-radius: 20px;
   width: 32px;
   position: fixed;
+  z-index: 10;
 }
 
 .header .mobile-nav{
@@ -73,14 +74,19 @@ nav {
 }
 #sidebar-active{
   display: none;
+  position: fixed;
 }
 .links-container{
   display: none;
 }
 ul{
-  position: relative;
+  position: fixed;
   align-content: center;
- display: initial;
+ /* display: initial; */
+ background-color: #3a2828;
+ width: 100%;
+  margin-left: -200px;
+  height: 100%;
 }
 ul li{
   list-style: none;
@@ -89,9 +95,9 @@ ul li{
 #sidebar-active:checked ~ .links-container {
   display: block;
   line-height: 5;
-  margin-top: -42px;
-  margin-left: -175px;
-  background-color: #e2b299;
+  /* margin-top: -42px; */
+  /* margin-left: -175px; */
+  /* background-color: #493e39; */
   height: 300%;
 
 }
