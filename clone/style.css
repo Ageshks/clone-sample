@@ -65,7 +65,16 @@ nav {
   position: fixed;
   z-index: 20;
 }
-
+.header2 .mobile-nav{
+  width: 100%;
+  /* background-color: rgb(10, 10, 10); */
+  display: block;
+  z-index: 3;
+  color: white;
+    height: 400%;
+  text-align: center;
+  position: relative;
+}
 .header .mobile-nav{
   width: 100%;
   /* background-color: rgb(10, 10, 10); */
@@ -89,6 +98,7 @@ ul{
  /* display: initial; */
  background-color: #3a2828;
  width: 100%;
+ color: white;
   margin-left: -200px;
   height: 100%;
 }
