@@ -228,8 +228,8 @@ p {
   margin-bottom: -13px;
   background-color: rgba(189, 180, 180, 0.289);
 }
-#test{
-  color: #fd9c6b;
+.container .test{
+  color: #f98347;
 }
 .btn{
   width: 40%;
