@@ -7,7 +7,7 @@ $(document).ready(function(){
 
 $(document).ready(function() {
     const apiKey = '38b24bff3834b33182f5b7d8f496e8df';
-    const url = `https://api.metalpriceapi.com/v1/latest?api_key=${apiKey}&base=USD&currencies=EUR,XAU,XAG`;
+    const url = `https://api.metalpriceapi.com/v1/latest?api_key=${apiKey}&base=USD`;
 
     $.ajax({
         url: url,
@@ -15,18 +15,18 @@ $(document).ready(function() {
         success: function(data) {
             if (data.success) {
                 const goldPrice = data.rates.XAU;
-                $('.container .test').each(function() {
+                $('.test').each(function() {
                     $(this).text(`$${goldPrice.toFixed(2)}`);
                 });
             } else {
-                $('.container .test').each(function() {
+                $('.test').each(function() {
                     $(this).text('Error getting live gold price.');
                 });
             }
         },
         error: function(error) {
             console.error('Error fetching the gold price:', error);
-            $('.container .test').each(function() {
+            $('.test').each(function() {
                 $(this).text('Error getting live gold price.');
             });
         }
