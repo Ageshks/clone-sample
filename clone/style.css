@@ -107,11 +107,11 @@ ul li{
 }
 
 #sidebar-active:checked ~ .links-container {
-  display: block;
+ display: block;
   line-height: 5;
   height: 300%;
 
-}
+} 
 
 
 

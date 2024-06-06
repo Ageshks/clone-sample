@@ -20,15 +20,31 @@ $(document).ready(function() {
                 });
             } else {
                 $('.test').each(function() {
-                    $(this).text('Error getting live gold price.');
+                    $(this).text('Error.');
                 });
             }
         },
-        error: function(error) {
-            console.error('Error fetching the gold price:', error);
-            $('.test').each(function() {
-                $(this).text('Error getting live gold price.');
-            });
-        }
+        // error: function(error) {
+        //     console.error('Error fetching the gold price:', error);
+        //     $('.test').each(function() {
+        //         $(this).text('Error.');
+        //     });
+        // }
     });
 });
+
+
+
+// document.addEventListener('DOMContentLoaded', function() {
+//     const checkbox = document.getElementById('sidebar-active');
+//     const linksContainer = document.querySelector('.links-container');
+//     const openSidebar = document.querySelector('.open-sidebar');
+
+//     openSidebar.addEventListener('click', function() {
+//         checkbox.checked = !checkbox.checked;
+//     });
+
+//     linksContainer.addEventListener('click', function() {
+//         checkbox.checked = false;
+//     });
+// });
