@@ -109,9 +109,6 @@ ul li{
 #sidebar-active:checked ~ .links-container {
   display: block;
   line-height: 5;
-  /* margin-top: -42px; */
-  /* margin-left: -175px; */
-  /* background-color: #493e39; */
   height: 300%;
 
 }
@@ -226,18 +223,13 @@ p {
   /* justify-content: space-between; */
 }
 #price{
-  /* display: flex; */
   /* border: 2px rgb(0, 0, 0) solid; */
   display: flex;
   width: 100px;
-  /* position: relative; */
 }
 .bot p{
   color: rgb(0, 0, 0);
   display: flex;
-  /* position: absolute; */
-  /* border: 2px rgb(0, 106, 255) solid; */
-  /* justify-content: space-between; */
   width: 180px;
   margin-bottom: -13px;
   background-color: rgba(189, 180, 180, 0.289);
