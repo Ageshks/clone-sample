@@ -106,12 +106,15 @@ ul li{
   list-style: none;
 }
 
-#sidebar-active:checked ~ .links-container {
+#sidebar-active:checked ~ .links-container{
  display: block;
   line-height: 5;
   height: 300%;
 
 } 
+#sidebar-active:checked ~ .cross{
+  display: block;
+}
 
 
 

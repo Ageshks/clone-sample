@@ -1,8 +1,8 @@
 $(document).ready(function(){
-    $('#carouselExample2Controls').carousel({
+   $('#carouselExample2Controls').carousel({
         interval: 1000, // Adjust the interval time as needed
         pause: 'hover'  // Pause the carousel on hover
-    });
+    }); 
 });
 
 $(document).ready(function() {
@@ -24,12 +24,12 @@ $(document).ready(function() {
                 });
             }
         },
-        // error: function(error) {
-        //     console.error('Error fetching the gold price:', error);
-        //     $('.test').each(function() {
-        //         $(this).text('Error.');
-        //     });
-        // }
+        error: function(error) {
+            console.error('Error fetching the gold price:', error);
+            $('.test').each(function() {
+                $(this).text('Error.');
+            });
+        }
     });
 });
 
